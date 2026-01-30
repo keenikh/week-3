@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   <section>
+        <h2>1. Проверка возраста</h2>
+        <input type="number" id="ageInput" placeholder="Введите возраст">
+        <button onclick="runAgeCheck()">Проверить</button>
+        <p>Результат: <strong id="ageResult">-</strong></p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>2. Список студентов</h2>
+        <button onclick="showStudents()">Показать список в консоли и на экране</button>
+        <div id="studentsList"></div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>3. Расчёт оценки</h2>
+        <input type="number" id="pointsInput" placeholder="Введите баллы (0-100)">
+        <button onclick="runGradeCalc()">Получить оценку</button>
+        <p>Ваша оценка: <strong id="gradeResult">-</strong></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
